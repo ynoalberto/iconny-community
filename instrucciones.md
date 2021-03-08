@@ -236,7 +236,7 @@ npm ERR!     /home/user/.npm/_logs/2021-03-08T16_37_19_611Z-debug.log
 #
 #### Clonar el repositorio 
 ~~~
-git clone https://github.com/TechAppsSv/iconny-navigation.git
+git clone https://github.com/TechAppsSv/iconny-navigation-electron.git
 ~~~
 #
 #### Eliminar la siguiente linea del package.json
