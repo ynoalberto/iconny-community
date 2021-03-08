@@ -1,0 +1,66 @@
+{
+	"name": "iconny",
+	"productName": "Iconny Browser Linux ",
+	"version": "1.0.4",
+	"description": "Maxima rapidez y ligereza",
+	"main": "src/wdk/wdk-init-webvi/index.js",
+	"scripts": {
+		"pack": "build --dir",
+		"dist": "build",
+		"build-linux": "electron-builder --linux --publish always",
+		"build-win": "electron-builder --win --publish always",
+		"build-mac": "electron-builder --mac --publish always",
+		"start": "electron src/wdk/wdk-init-webvi/index.js"
+	},
+	"author": "Iconny <techappsv@hotmail.com>",
+	"license": "MIT",
+	"build": {
+		"appId": "com.techapps.iconny",
+		"productName": "Iconny Browser Linux",
+		"win": {
+			"target": [
+				"nsis",
+				"zip"
+			],
+			"icon": "build/icon.ico"
+		},
+		"mac": {
+			"category": "productivity",
+			"target": [
+				"pkg"
+			],
+			"icon": "build/icon.icns"
+		},
+		"linux": {
+			"category": "Browser",
+			"target": [
+				"snap"
+			],
+			"icon": "build/background.png"
+		},
+		"publish": [
+			{
+				"provider": "generic",
+				"url": "https://gitlab.com"
+			}
+		],
+		"nsis": {
+			"oneClick": "false",
+			"allowToChangeInstallationDirectory": "true",
+			"perMachine": "true"
+		}
+	},
+	"dependencies": {
+		"@cliqz/adblocker-electron": "^1.20.3",
+		"cross-fetch": "^3.0.6",
+		"electron-context-menu": "^0.9.1",
+		"electron-navigation": "^1.5.8",
+		"electron-navigation-iconny": "^1.5.8",
+		"node-fetch": "^2.6.1"
+	},
+	"devDependencies": {
+		"electron": "^11.3.0",
+		"electron-builder": "^22.6.1",
+		"electron-devtools-installer": "^3.1.1"
+	}
+}
