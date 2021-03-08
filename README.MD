@@ -7,4 +7,5 @@
 #
 ## Los binarios oficiales son hechos en formato .appimage y snap
 #
-## Para mantenedores 
+## Para mantenedores
+https://github.com/TechAppsSv/iconny-community/blob/master/instrucciones.md
