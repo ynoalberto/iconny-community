@@ -1,4 +1,4 @@
-# Iconny Community Edition
+# Iconny Community Edition (CBR)
 ### Repositorio con binarios de Iconny hechos por la comunidad
 #
 #### Iconny Community es un repositorio de binarios para .RPM, .DEB y flatpak o .tar.gz  y para otros sistemas como Windows o Mac compilados y hechos por la comunidad
