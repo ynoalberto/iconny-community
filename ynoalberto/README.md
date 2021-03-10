@@ -4,4 +4,4 @@
 ### Rama: Stable
 ### Distrubucion probada: MX Linux 19.3 AHS
 ### Formato: .deb
-### Descarga: https//:github.com/iconny.deb
+### Descarga: https://drive.google.com/file/d/1kE8pYQ71rsgNYEh7reQVrhK6Y3lS7Z24/view?usp=sharing
